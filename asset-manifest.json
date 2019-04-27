@@ -1,14 +1,13 @@
 {
-  "main.css": "/maria-minesweeper/static/css/main.ab747846.chunk.css",
-  "main.js": "/maria-minesweeper/static/js/main.57f67945.chunk.js",
-  "main.js.map": "/maria-minesweeper/static/js/main.57f67945.chunk.js.map",
+  "main.css": "/maria-minesweeper/static/css/main.632c21f2.chunk.css",
+  "main.js": "/maria-minesweeper/static/js/main.9f78308e.chunk.js",
+  "main.js.map": "/maria-minesweeper/static/js/main.9f78308e.chunk.js.map",
   "runtime~main.js": "/maria-minesweeper/static/js/runtime~main.97629196.js",
   "runtime~main.js.map": "/maria-minesweeper/static/js/runtime~main.97629196.js.map",
-  "static/js/2.95e420ab.chunk.js": "/maria-minesweeper/static/js/2.95e420ab.chunk.js",
-  "static/js/2.95e420ab.chunk.js.map": "/maria-minesweeper/static/js/2.95e420ab.chunk.js.map",
+  "static/js/2.cf04b197.chunk.js": "/maria-minesweeper/static/js/2.cf04b197.chunk.js",
+  "static/js/2.cf04b197.chunk.js.map": "/maria-minesweeper/static/js/2.cf04b197.chunk.js.map",
   "index.html": "/maria-minesweeper/index.html",
-  "precache-manifest.8023695861e5ddd1cb2a96396a7a2eab.js": "/maria-minesweeper/precache-manifest.8023695861e5ddd1cb2a96396a7a2eab.js",
+  "precache-manifest.1088b77950e02f947cd10f1dd7a823d7.js": "/maria-minesweeper/precache-manifest.1088b77950e02f947cd10f1dd7a823d7.js",
   "service-worker.js": "/maria-minesweeper/service-worker.js",
-  "static/css/main.ab747846.chunk.css.map": "/maria-minesweeper/static/css/main.ab747846.chunk.css.map",
-  "static/media/logo.svg": "/maria-minesweeper/static/media/logo.5d5d9eef.svg"
+  "static/css/main.632c21f2.chunk.css.map": "/maria-minesweeper/static/css/main.632c21f2.chunk.css.map"
 }

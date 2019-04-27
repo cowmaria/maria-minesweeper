@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/maria-minesweeper/static/js/runtime~main.97629196.js"
   },
   {
-    "revision": "32738b6ec679903d69e7",
-    "url": "/maria-minesweeper/static/js/main.71d9def1.chunk.js"
+    "revision": "e35f0c61ccd94c5f434e",
+    "url": "/maria-minesweeper/static/js/main.549b5d9f.chunk.js"
   },
   {
-    "revision": "5d450b1eab0e45465045",
-    "url": "/maria-minesweeper/static/js/2.546779a2.chunk.js"
+    "revision": "93c74f63ee8120d40595",
+    "url": "/maria-minesweeper/static/js/2.98dd5580.chunk.js"
   },
   {
-    "revision": "32738b6ec679903d69e7",
+    "revision": "e35f0c61ccd94c5f434e",
     "url": "/maria-minesweeper/static/css/main.ab747846.chunk.css"
   },
   {
-    "revision": "bf2f6a0207d120f7d2e01761d210854c",
+    "revision": "5fead08a89f32bf869fbe8159e1ac733",
     "url": "/maria-minesweeper/index.html"
   }
 ];

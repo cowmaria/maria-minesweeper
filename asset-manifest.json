@@ -1,13 +1,13 @@
 {
-  "main.css": "/maria-minesweeper/static/css/main.632c21f2.chunk.css",
-  "main.js": "/maria-minesweeper/static/js/main.82e3be4a.chunk.js",
-  "main.js.map": "/maria-minesweeper/static/js/main.82e3be4a.chunk.js.map",
+  "main.css": "/maria-minesweeper/static/css/main.a11a2840.chunk.css",
+  "main.js": "/maria-minesweeper/static/js/main.6f101389.chunk.js",
+  "main.js.map": "/maria-minesweeper/static/js/main.6f101389.chunk.js.map",
   "runtime~main.js": "/maria-minesweeper/static/js/runtime~main.97629196.js",
   "runtime~main.js.map": "/maria-minesweeper/static/js/runtime~main.97629196.js.map",
   "static/js/2.4006194e.chunk.js": "/maria-minesweeper/static/js/2.4006194e.chunk.js",
   "static/js/2.4006194e.chunk.js.map": "/maria-minesweeper/static/js/2.4006194e.chunk.js.map",
   "index.html": "/maria-minesweeper/index.html",
-  "precache-manifest.23c390ed3d34752eb26c09dc31db394b.js": "/maria-minesweeper/precache-manifest.23c390ed3d34752eb26c09dc31db394b.js",
+  "precache-manifest.ca122c582925de3523e3101d225ece69.js": "/maria-minesweeper/precache-manifest.ca122c582925de3523e3101d225ece69.js",
   "service-worker.js": "/maria-minesweeper/service-worker.js",
-  "static/css/main.632c21f2.chunk.css.map": "/maria-minesweeper/static/css/main.632c21f2.chunk.css.map"
+  "static/css/main.a11a2840.chunk.css.map": "/maria-minesweeper/static/css/main.a11a2840.chunk.css.map"
 }

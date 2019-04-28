@@ -12,19 +12,33 @@ import {TopBar} from "./components/TopBar";
 
 const styles = () => ({
 
-    root: {
-        display: "grid",
-        padding: "10px",
-        margin: "10px",
-        gridTemplateColumns: "minmax(80px,min-content) min-content",
-    },
-    gameSettings: {
-        gridColumn: "1",
-        gridRow: "2/3",
-        background: "#b648f2",
-        padding: "12px"
-    }
-});
+        root: {
+            display: "grid",
+            padding: "10px",
+            margin: "10px",
+            gridTemplateColumns: "minmax(80px,min-content) min-content",
+        },
+        gameSettings: {
+            gridColumn: "1",
+            gridRow: "2/3",
+            background: "#b648f2",
+            padding: "12px"
+        },
+        buttonArea: {
+            background: "#ffcd1a"
+        },
+        button: {
+            height: "100%",
+            width: "100%",
+            color: "white"
+        },
+        loading: {
+            position: "absolute",
+            zIndex: "100",
+            width: "100%"
+        }
+    })
+;
 
 @inject('GameStore')
 @withStyles(styles)
@@ -72,16 +86,17 @@ class MineSweeperGame extends React.Component {
         this.setState({[ev.target.id]: val ? val : ''});
     }
 
-    handleShowRules=()=>{
-        const {GameStore}=this.props
+    handleShowRules = () => {
+        const {GameStore} = this.props
         GameStore.setShowRules(true)
     }
-    handleCloseRules=()=>{
-        const {GameStore}=this.props
+    handleCloseRules = () => {
+        const {GameStore} = this.props
         GameStore.setShowRules(false)
     }
+
     render() {
-        const {GameStore,classes} = this.props;
+        const {GameStore, classes} = this.props;
         const NotValidDialog =
             <AlertDialog
                 open={GameStore.wrongParams}
@@ -124,14 +139,14 @@ class MineSweeperGame extends React.Component {
                 <Superman toggle={GameStore.toggleSuperman} value={GameStore.superman}/>
                 <FlagsLeft flags={GameStore.minesNumber - GameStore.flags}/>
             </TopBar>
-            <div style={{gridRow: "1", gridColumn: "1", background: "#ffcd1a"}}>
-                <Button id='new-game-button' style={{height: "100%", width: "100%", color: "white"}} color="inherit"
+            <div style={{gridRow: "1", gridColumn: "1"}} className={classes.buttonArea}>
+                <Button id='new-game-button' className={classes.button} color="inherit"
                         onClick={this.handleNewGame}>
                     Go!
                 </Button>
             </div>
-            <div style={{gridRow: "2/3 ", gridColumn: "2"}}>
-                {GameStore.loading && <LinearProgress/>}
+            <div style={{gridRow: "2/3 ", gridColumn: "2", position: "relative"}}>
+                {GameStore.loading && <LinearProgress className={classes.loading}/>}
                 <GameBoard/>
             </div>
             {WonDialog}
